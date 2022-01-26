@@ -1,0 +1,46 @@
+RewriteEngine on
+
+#If you want to remove extension for single file
+
+RewriteRule ^index$ index.php [L]
+RewriteRule ^forgets-password$ forgets-password.php [L]
+RewriteRule ^logout$ logout.php [L]
+
+RewriteRule ^dashboard$ dashboard.php [L]
+RewriteRule ^customers$ customers.php [L]
+RewriteRule ^partners$ partners.php [L]
+RewriteRule ^allgarages$ allgarages.php [L]
+RewriteRule ^drivers$ drivers.php [L]
+RewriteRule ^category$ category.php [L]
+RewriteRule ^services$ services.php [L]
+RewriteRule ^pickups$ pickups.php [L]
+RewriteRule ^inquiries$ inquiries.php [L]
+RewriteRule ^invoices$ invoices.php [L]
+RewriteRule ^garage$ garage.php [L]
+RewriteRule ^notifications$ notifications.php [L]
+RewriteRule ^myprofile$ myprofile.php [L]
+RewriteRule ^settings$ settings.php [L] 
+
+RewriteRule ^servicesprovision$ servicesprovision.php [L]
+
+RewriteRule ^bookings$ booking.php [L]
+RewriteRule ^enquiries$ enquiries.php [L]
+RewriteRule ^enquiriesDriv$ enquiriesDriv.php [L]
+
+RewriteRule ^pickups$ pickups.php [L]
+
+RewriteRule ^bookingPartner$ bookingPartner.php [L]
+RewriteRule ^garageServices$ garageServices.php [L]
+RewriteRule ^print_invoices$ print_invoices.php [L]
+RewriteRule ^servicesprovisionGarage$ servicesprovisionGarage.php [L]
+RewriteRule ^bookingAssigned$ bookingAssigned.php [L]
+
+RewriteRule ^notificationsDriver$ notificationsDriver.php [L]
+RewriteRule ^notificationsCustomer$ notificationsCustomer.php [L]
+
+RewriteRule ^confirmedDoneBooking$ confirmedDoneBooking.php [L]
+RewriteRule ^invoice_list$ invoice_list.php [L]
+RewriteRule ^driversrates$ driversrates.php [L]
+
+RewriteRule ^transaction$ transaction.php [L]
+RewriteRule ^earnings$ earnings.php [L]
